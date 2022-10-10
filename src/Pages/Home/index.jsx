@@ -58,26 +58,20 @@ const SAside = styled.div`
 
     & p {
         transform: rotate(90deg);
-        margin-left: 1180px;
+        margin-left: 1330px;
         margin-top: -500px;
         opacity: 0.8;
+        font-size: 20px;
     }
 `
 const SAside2 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: -150px;
-
-    & p {
-        transform: rotate(90deg);
-        margin-right: 1150px;
-        margin-top: -180px;
-        opacity: 0.8;
-    }
+    margin-top: -170px;
 
     & img {
-        width: 30px;
+        width: 40px;
         margin-left: 25px;
         opacity: 0.5;
     }
