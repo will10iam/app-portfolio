@@ -24,6 +24,8 @@ export function About() {
 
                 <div className="button">
                     <Link to="/projects"><Button>Meus Projetos</Button></Link>
+                    <Link to="/"><Button>Home</Button></Link>
+
                 </div>
             </SMain>
 
