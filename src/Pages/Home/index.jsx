@@ -2,7 +2,8 @@ import styled from "styled-components";
 import Linkedin from '../../Assets/linkedin.png'
 import Github from '../../Assets/github.png'
 import Instagram from '../../Assets/instagram.png'
-
+import Button from "../../Components/Buttons";
+import { Link } from "react-router-dom";
 
 
 export function Home() {
@@ -11,7 +12,14 @@ export function Home() {
             <SMain>
                 <h1>Oi, eu sou o William!</h1>
                 <h3>Desenvolvedor Web/Mobile Front End</h3>
+
+                <div className="button">
+                    <Link to="/about"><Button>Sobre Mim</Button></Link>
+                    <Link to="/projects"><Button>Meus Projetos</Button></Link>
+                </div>
             </SMain>
+
+
 
             <SAside>
                 <p>wiiliamb@hotmail.com</p>
@@ -49,6 +57,15 @@ const SMain = styled.div`
         margin-top: -30px;
         font-size: 25px;
         font-weight: 100;
+    }
+
+    & .button {
+        display: flex;
+        margin-top: 30px;
+
+        & a {
+            text-decoration: none;
+        }
     }
 `
 
