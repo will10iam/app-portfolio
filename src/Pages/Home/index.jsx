@@ -75,7 +75,7 @@ const SAside = styled.div`
 
     & p {
         transform: rotate(90deg);
-        margin-left: 1330px;
+        margin-left: 1300px;
         margin-top: -500px;
         opacity: 0.8;
         font-size: 20px;
@@ -85,7 +85,7 @@ const SAside2 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: -170px;
+    margin-top: -145px;
 
     & img {
         width: 40px;

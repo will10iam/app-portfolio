@@ -50,6 +50,7 @@ const SAside2 = styled.div`
     //flex-direction: column;
     //stify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 22px;
     align-items: center;
 
     & img {

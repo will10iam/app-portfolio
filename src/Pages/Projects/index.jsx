@@ -1,10 +1,21 @@
 import styled from "styled-components";
+
 import Portfolio from '../../Assets/portfolio3.png'
+import MeuPortfolio from '../../Assets/portfolio-teste.png'
+
 import ToDo from '../../Assets/todoapp.png'
+
 import Comedoria from '../../Assets/comedoria.png'
+import MeuComedoria from '../../Assets/meu-comedoria.png'
+
 import Gamelandia from '../../Assets/gamelandia.png'
-import PatchNinjas from '../../Assets/patchninjas.png'
+import MeuGamelandia from '../../Assets/meu-gamelandia.png'
+
+import PatchNinjas from '../../Assets/patch.png'
+import MeuPatch from '../../Assets/meu-patch.png'
+
 import Jokenpo from '../../Assets/jokenpo.png'
+import MeuJokenpo from '../../Assets/meu-jokenpo.png'
 //import { Link } from "react-router-dom";
 
 
@@ -19,49 +30,47 @@ export function Projects() {
                 <div className="container">
                     <div className="card card0">
                         <div className="border">
-                            <h2>Nome do Projeto</h2>
-                            <div className="texto">
-                                <span className="g">Ver mais</span>
-                            </div>
+                            <h2>Ver Detalhes</h2>
                         </div>
                     </div>
                 </div>
-
                 <div className="container">
                     <div className="card card1">
                         <div className="border">
-                            <h2>Nome do Projeto</h2>
-                            <div className="texto">
-                                <span className="g">Ver mais</span>
-                            </div>
+                            <h2>Ver Detalhes</h2>
                         </div>
                     </div>
                 </div>
-
                 <div className="container">
                     <div className="card card2">
                         <div className="border">
-                            <h2>Nome do Projeto</h2>
-                            <div className="texto">
-                                <span className="g">Ver mais</span>
-                            </div>
+                            <h2>Ver Detalhes</h2>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="card card3">
                         <div className="border">
-                            <h2>Nome do Projeto</h2>
-                            <div className="texto">
-                                <span className="g">Ver mais</span>
-                            </div>
+                            <h2>Ver Detalhes</h2>
+                        </div>
+                    </div>
+                </div>
+                <div className="container">
+                    <div className="card card4">
+                        <div className="border">
+                            <h2>Ver Detalhes</h2>
+                        </div>
+                    </div>
+                </div>
+                <div className="container">
+                    <div className="card card5">
+                        <div className="border">
+                            <h2>Ver Detalhes</h2>
                         </div>
                     </div>
                 </div>
             </div>
 
-
-            {/* <img src={Portfolio} alt='' className="image" /> */}
             <footer>
 
             </footer>
@@ -82,48 +91,17 @@ const SHeader = styled.div`
 `
 
 const SMain = styled.div`
-    /* display: grid ;
-    grid-template-columns: auto auto auto auto;
-    justify-content: start;
-    gap: 3px; */
-
-   /*  & .image {
-        opacity: 1;
-        display: block;
-        width: 339px;
-        height: 215px;
-        transition: .5s ease;
-        backface-visibility: hidden;
-
-        &:hover {
-        opacity: 0.5;
-    }
-    } */
 
     & .main{
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
     }
 
     & .container {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 30px;
+        margin: 5px;
+        padding-left: 15px;
     }
-
-    /* & .border {
-        height: 298px;
-        width: 300px;
-        background: transparent;
-        border-radius: 10px;
-        transition: border 1s;
-        position: relative;
-    } */
-
-    /* & .border:hover{
-        border: 1px solid #fff;
-    } */
 
     & .card {
         height: 300px;
@@ -148,7 +126,7 @@ const SMain = styled.div`
     }
 
     .card0:hover{
-        background: url(${Portfolio}) left center no-repeat;
+        background: url(${MeuPortfolio}) left center no-repeat;
         background-size: 600px;
     }
 
@@ -185,7 +163,7 @@ const SMain = styled.div`
     }
 
     .card2:hover{
-        background: url(${Comedoria}) left center no-repeat;
+        background: url(${MeuComedoria}) left center no-repeat;
         background-size: 600px;
     }
 
@@ -198,12 +176,12 @@ const SMain = styled.div`
     }
        // ------------------------------------------------------ \\
     .card3{
-        background: url(${Gamelandia}) center center no-repeat;
+        background: url(${PatchNinjas}) center center no-repeat;
         background-size: 300px;
     }
 
     .card3:hover{
-        background: url(${Gamelandia}) left center no-repeat;
+        background: url(${MeuPatch}) left center no-repeat;
         background-size: 600px;
     }
 
@@ -215,30 +193,50 @@ const SMain = styled.div`
         opacity: 1;
     }
        // ------------------------------------------------------ \\
+    .card4{
+        background: url(${Gamelandia}) center center no-repeat;
+        background-size: 300px;
+    }
+
+    .card4:hover{
+        background: url(${MeuGamelandia}) left center no-repeat;
+        background-size: 600px;
+    }
+
+    .card4:hover h2{
+        opacity: 1;
+    }
+
+    .card4:hover .g{
+        opacity: 1;
+    }
+       // ------------------------------------------------------ \\
+    .card5{
+        background: url(${Jokenpo}) center center no-repeat;
+        background-size: 300px;
+    }
+
+    .card5:hover{
+        background: url(${MeuJokenpo}) left center no-repeat;
+        background-size: 600px;
+    }
+
+    .card5:hover h2{
+        opacity: 1;
+    }
+
+    .card5:hover .g{
+        opacity: 1;
+    }
+       // ------------------------------------------------------ \\
 
     & h2 {
         color: #fff;
         margin-left: 20px;
         opacity: 0;
         transition: opacity 1s;
-        top: 116px;
-        left: 50px;
+        top: 136px;
+        left: 60px;
         position: absolute;
-    }
-
-    & .g {
-        opacity: 0;
-        transition: opacity 1s;
-    }
-
-    & .texto{
-        position: absolute;
-        margin-left: 10px;
-        color: #fff;
-        height: 130px;
-        top: 156px;
-        left: 100px;
-        align-items: center;
-        justify-content: space-around;
     }
 `
