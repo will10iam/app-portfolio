@@ -4,7 +4,8 @@ body {
     width: auto;
     height: auto;
     background: rgb(48, 2, 25);
-    background: linear-gradient(0deg, rgba(48, 2, 25, 1) 1%, rgba(175, 5, 63, 1) 100%)
+    background: linear-gradient(0deg, rgba(48, 2, 25, 1) 1%, rgba(175, 5, 63, 1) 100%);
+    scrollbar-width: none;
 }
 
 * {
@@ -13,4 +14,8 @@ body {
 
     font-family: "Cairo", sans-serif;
     color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

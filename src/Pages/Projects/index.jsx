@@ -1,4 +1,9 @@
 import styled from "styled-components";
+import { BsArrowLeft } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import Github2 from '../../Assets/github2.png'
+import Net from '../../Assets/net.png'
+
 
 import Portfolio from '../../Assets/portfolio3.png'
 import MeuPortfolio from '../../Assets/portfolio-teste.png'
@@ -16,13 +21,19 @@ import MeuPatch from '../../Assets/meu-patch.png'
 
 import Jokenpo from '../../Assets/jokenpo.png'
 import MeuJokenpo from '../../Assets/meu-jokenpo.png'
+
+
 //import { Link } from "react-router-dom";
 
 
 export function Projects() {
+    //Modal.setAppElement('#yourAppElement');
+
+
     return (
         <SMain>
             <SHeader>
+                <Link to='/'><BsArrowLeft size={40} /></Link>
                 <h1>Meus melhores projetos!</h1>
             </SHeader>
 
@@ -30,7 +41,8 @@ export function Projects() {
                 <div className="container">
                     <div className="card card0">
                         <div className="border">
-                            <h2>Ver Detalhes</h2>
+                            <h2 className="project"><a href="https://github.com/will10iam/app-portfolio" target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a></h2>
+                            <h3 className="project"><img src={Net} alt='' /></h3>
                         </div>
                     </div>
                 </div>
@@ -71,8 +83,8 @@ export function Projects() {
                 </div>
             </div>
 
-            <footer>
-
+            <footer className="footer">
+                {/* <App /> */}
             </footer>
         </SMain>
     )
@@ -88,6 +100,15 @@ const SHeader = styled.div`
     font-size: 30px;
     align-items: center;
     width: 1360px;
+    margin-left: -80px;
+
+    & h1 {
+        margin-left: 200px;
+    }
+
+    & img {
+            width: 150px;
+        }
 `
 
 const SMain = styled.div`
@@ -118,6 +139,11 @@ const SMain = styled.div`
         position: relative;
         cursor: pointer;
     }
+
+    & .border {
+        margin-left: 15px;
+        
+    }
 // ============================== CARDS ============================== \\
 
     .card0{
@@ -132,6 +158,10 @@ const SMain = styled.div`
 
     .card0:hover h2{
         opacity: 1;
+    }
+
+    .card0:hover h3{
+        opacity: 2;
     }
 
     .card0:hover .g{
@@ -235,8 +265,25 @@ const SMain = styled.div`
         margin-left: 20px;
         opacity: 0;
         transition: opacity 1s;
-        top: 136px;
+        top: 124px;
         left: 60px;
         position: absolute;
+
+        & img {
+            width: 70px;
+        }
+    }
+
+    & h3 {
+        margin-right: 20px;
+        opacity: 0;
+        transition: opacity 1s;
+        top: 121px;
+        right: 60px;
+        position: absolute;
+
+        & img {
+            width: 69px;
+        }
     }
 `
