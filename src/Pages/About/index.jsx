@@ -58,6 +58,10 @@ const SAside2 = styled.div`
         margin-left: 25px;
         opacity: 0.5;
     }
+    
+    img:hover{
+        opacity: 0.8;
+    }
 `
 
 const SMain = styled.div`

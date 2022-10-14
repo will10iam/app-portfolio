@@ -3,13 +3,33 @@ import Linkedin from '../../Assets/linkedin.png'
 import Github from '../../Assets/github.png'
 import Instagram from '../../Assets/instagram.png'
 import Button from "../../Components/Buttons";
+import Whats from '../../Assets/whats.png'
+import Email from '../../Assets/mail.png'
+
+
 import { Link } from "react-router-dom";
 
 
 export function Home() {
     return (
         <>
+            <SAside>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5519996602839&text=Olá,%20tudo%20bem%20?"
+                    target="_blank"
+                    rel="noreferrer">
+                    <img src={Whats} alt='' />
+                </a>
+                <a
+                    href="mailto:wiiliamb@hotmail.com"
+                    target="_blank"
+                    rel="noreferrer">
+                    <img src={Email} alt='' />
+                </a>
+            </SAside>
+
             <SMain>
+
                 <h1>Oi, eu sou o William!</h1>
                 <h3>Desenvolvedor Web/Mobile Front End</h3>
 
@@ -21,9 +41,6 @@ export function Home() {
 
 
 
-            <SAside>
-                <p>wiiliamb@hotmail.com</p>
-            </SAside>
 
             <SAside2>
                 <a href="https://www.linkedin.com/in/william-berbet/" target="_blank" rel="noreferrer"><img src={Linkedin} alt='' /></a>
@@ -46,7 +63,6 @@ const SMain = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
     & h1 {
         font-size: 80px;
@@ -72,24 +88,33 @@ const SMain = styled.div`
 const SAside = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -120px;
+    margin-top: 18px;
 
-    & p {
-        transform: rotate(90deg);
+    & img {
         margin-left: 1300px;
-        margin-top: -500px;
+        opacity: 0.5;
+        width: 40px;
+    }
+
+    img:hover{
         opacity: 0.8;
-        font-size: 20px;
     }
 `
 const SAside2 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: -145px;
+    margin-top: -140px;
 
     & img {
         width: 40px;
         margin-left: 25px;
         opacity: 0.5;
+    }
+
+    img:hover{
+        opacity: 0.8;
     }
 `

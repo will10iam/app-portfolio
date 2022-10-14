@@ -41,43 +41,66 @@ export function Projects() {
                 <div className="container">
                     <div className="card card0">
                         <div className="border">
-                            <h2 className="project"><a href="https://github.com/will10iam/app-portfolio" target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a></h2>
-                            <h3 className="project"><img src={Net} alt='' /></h3>
+                            <h2 className="project"><a href="https://github.com/will10iam/app-portfolio"
+                                target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
+                            </h2>
+                            <h3 className="project"><a href="/"
+                                target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="card card1">
                         <div className="border">
-                            <h2>Ver Detalhes</h2>
+                            <h2 className="project"><a href="https://github.com/will10iam/toDoApp"
+                                target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
+                            </h2>
+                            <h3 className="project"><a href="/"
+                                target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="card card2">
                         <div className="border">
-                            <h2>Ver Detalhes</h2>
+                            <h2 className="project"><a href="https://github.com/will10iam/comedoria-frontend"
+                                target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
+                            </h2>
+                            <h3 className="project"><a href="/"
+                                target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="card card3">
                         <div className="border">
-                            <h2>Ver Detalhes</h2>
+                            <h2 className="project"><a href="https://github.com/will10iam/Patch-Ninjas-Client"
+                                target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
+                            </h2>
+                            <h3 className="project"><a href="https://patch-ninjas.netlify.app/"
+                                target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="card card4">
                         <div className="border">
-                            <h2>Ver Detalhes</h2>
+                            <h2 className="project"><a href="https://github.com/will10iam/projeto-dois"
+                                target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
+                            </h2>
+                            <h3 className="project"><a href="https://strong-gaufre-583030.netlify.app/"
+                                target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="card card5">
                         <div className="border">
-                            <h2>Ver Detalhes</h2>
+                            <h2 className="project"><a href="https://github.com/will10iam/jokenpo_game"
+                                target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
+                            </h2>
+                            <h3 className="project"><a href="https://will10iam.github.io/jokenpo_game/"
+                                target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
                 </div>
@@ -109,6 +132,7 @@ const SHeader = styled.div`
     & img {
             width: 150px;
         }
+    
 `
 
 const SMain = styled.div`
@@ -183,6 +207,10 @@ const SMain = styled.div`
         opacity: 1;
     }
 
+    .card1:hover h3{
+        opacity: 1;
+    }
+
     .card1:hover .g{
         opacity: 1;
     }
@@ -200,6 +228,10 @@ const SMain = styled.div`
     .card2:hover h2{
         opacity: 1;
     }
+    .card2:hover h3{
+        opacity: 1;
+    }
+
 
     .card2:hover .g{
         opacity: 1;
@@ -218,6 +250,10 @@ const SMain = styled.div`
     .card3:hover h2{
         opacity: 1;
     }
+    .card3:hover h3{
+        opacity: 1;
+    }
+
 
     .card3:hover .g{
         opacity: 1;
@@ -237,6 +273,11 @@ const SMain = styled.div`
         opacity: 1;
     }
 
+    .card4:hover h3{
+        opacity: 1;
+    }
+
+
     .card4:hover .g{
         opacity: 1;
     }
@@ -254,6 +295,11 @@ const SMain = styled.div`
     .card5:hover h2{
         opacity: 1;
     }
+
+    .card5:hover h3{
+        opacity: 1;
+    }
+
 
     .card5:hover .g{
         opacity: 1;
