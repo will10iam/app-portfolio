@@ -6,7 +6,13 @@ body {
     background: rgb(48, 2, 25);
     background: linear-gradient(0deg, rgba(48, 2, 25, 1) 1%, rgba(175, 5, 63, 1) 100%);
     scrollbar-width: none;
+
+    @media screen {
+        height: 617px;
+    }
 }
+
+
 
 * {
     margin: 0;
@@ -14,6 +20,7 @@ body {
 
     font-family: "Cairo", sans-serif;
     color: white;
+
 }
 
 ::-webkit-scrollbar {
