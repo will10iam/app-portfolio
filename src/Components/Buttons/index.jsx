@@ -23,7 +23,9 @@ const SButton = styled.div`
     font-size: 20px;
     margin: 10px;
     font-weight: 100;
-    /* outline: 1px solid #F4F6FF;
-    outline-offset: 2px;
- */
+    
+    @media (max-width: 705px) {
+            font-size: 10px;
+            margin-top: -15px;
+        }
 `

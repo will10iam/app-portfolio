@@ -12,21 +12,23 @@ import { Link } from "react-router-dom";
 
 export function Home() {
     return (
-        <>
-            <SAside>
-                <a
-                    href="https://api.whatsapp.com/send?phone=5519996602839&text=Olá,%20tudo%20bem%20?"
-                    target="_blank"
-                    rel="noreferrer">
-                    <img src={Whats} alt='' />
-                </a>
-                <a
-                    href="mailto:wiiliamb@hotmail.com"
-                    target="_blank"
-                    rel="noreferrer">
-                    <img src={Email} alt='' />
-                </a>
-            </SAside>
+        <SContainer>
+            <div>
+                <SAside>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5519996602839&text=Olá,%20tudo%20bem%20?"
+                        target="_blank"
+                        rel="noreferrer">
+                        <img src={Whats} alt='' />
+                    </a>
+                    <a
+                        href="mailto:wiiliamb@hotmail.com"
+                        target="_blank"
+                        rel="noreferrer">
+                        <img src={Email} alt='' />
+                    </a>
+                </SAside>
+            </div>
 
             <SMain>
 
@@ -41,13 +43,14 @@ export function Home() {
 
 
 
-
-            <SAside2>
-                <a href="https://www.linkedin.com/in/william-berbet/" target="_blank" rel="noreferrer"><img src={Linkedin} alt='' /></a>
-                <a href="https://github.com/will10iam" target="_blank" rel="noreferrer"><img src={Github} alt='' /></a>
-                <a href="https://www.instagram.com/willnasredes/" target="_blank" rel="noreferrer"><img src={Instagram} alt='' /></a>
-            </SAside2>
-        </>
+            <div>
+                <SAside2>
+                    <a href="https://www.linkedin.com/in/william-berbet/" target="_blank" rel="noreferrer"><img src={Linkedin} alt='' /></a>
+                    <a href="https://github.com/will10iam" target="_blank" rel="noreferrer"><img src={Github} alt='' /></a>
+                    <a href="https://www.instagram.com/willnasredes/" target="_blank" rel="noreferrer"><img src={Instagram} alt='' /></a>
+                </SAside2>
+            </div>
+        </SContainer>
     )
 }
 
@@ -56,6 +59,11 @@ export default Home;
 
 // ==================================== STYLES ===============================
 
+const SContainer = styled.div`
+    
+`
+
+
 const SMain = styled.div`
     width: 100vw;
     height: 100vh;
@@ -63,9 +71,18 @@ const SMain = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
     & h1 {
         font-size: 80px;
+
+        @media (max-width: 705px) {
+            font-size: 50px;
+        }
+
+        @media (max-width: 442px) {
+            font-size: 30px;
+        }
     }
 
     & h3 {
@@ -73,6 +90,16 @@ const SMain = styled.div`
         margin-top: -30px;
         font-size: 25px;
         font-weight: 100;
+
+        @media (max-width: 705px) {
+            font-size: 20px;
+        }
+
+        @media (max-width: 442px) {
+            font-size: 15px;
+            margin-top: -10px;
+        }
+
     }
 
     & .button {
@@ -107,6 +134,7 @@ const SAside2 = styled.div`
     flex-direction: column;
     justify-content: space-between;
     margin-top: -140px;
+    padding: 0;
 
     & img {
         width: 40px;
