@@ -44,7 +44,7 @@ export function Projects() {
                             <h2 className="project"><a href="https://github.com/will10iam/app-portfolio"
                                 target="_blank" rel="noreferrer"><img src={Github2} alt='' /></a>
                             </h2>
-                            <h3 className="project"><a href="/"
+                            <h3 className="project"><a href="https://wiillportfolio.netlify.app"
                                 target="_blank" rel="noreferrer"><img src={Net} alt='' /></a></h3>
                         </div>
                     </div>
