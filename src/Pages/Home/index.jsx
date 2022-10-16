@@ -60,7 +60,7 @@ export default Home;
 // ==================================== STYLES ===============================
 
 const SContainer = styled.div`
-    
+    background-size: cover;
 `
 
 
