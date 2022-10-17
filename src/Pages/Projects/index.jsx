@@ -127,12 +127,10 @@ const SHeader = styled.div`
 
     & h1 {
         margin-left: 200px;
+        font-family: 'Qatar2022', sans-serif;
+        margin-top: 10px;
+                                                
     }
-
-    & img {
-            width: 150px;
-        }
-    
 `
 
 const SMain = styled.div`

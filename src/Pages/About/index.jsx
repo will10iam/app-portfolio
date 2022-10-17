@@ -75,26 +75,34 @@ const SMain = styled.div`
     & h1 {
         font-size: 80px;
         margin-left: 25px;
+        font-family: 'Qatar2022', sans-serif;
+        margin-top: 50px;
+                                                
     }
 
     & h3 {
         color: #f6336c;
         margin-bottom: -40px;
-        margin-top: 40px;
+        margin-top: 50px;
         font-size: 25px;
         font-weight: 100;
         margin-left: 25px;
+        font-family: 'Qatar2022', sans-serif;
+                                                
     }
 
     & p {
         margin-left: 25px;
-        font-size: 18px;
+        font-size: 20px;
         width: 750px;
+        font-family: 'Qatar2022', sans-serif;
+        margin-top: 10px;
+                                                
     }
 
     & .button {
         display: flex;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 25px;
 
         & a {

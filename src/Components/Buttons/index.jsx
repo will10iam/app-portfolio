@@ -23,6 +23,8 @@ const SButton = styled.div`
     font-size: 20px;
     margin: 10px;
     font-weight: 100;
+    font-family: 'Qatar2022', sans-serif;
+                                                
     
     @media (max-width: 705px) {
             font-size: 10px;

@@ -75,6 +75,8 @@ const SMain = styled.div`
 
     & h1 {
         font-size: 80px;
+        font-family: 'Qatar2022', sans-serif;
+                                                
 
         @media (max-width: 705px) {
             font-size: 50px;
@@ -87,9 +89,11 @@ const SMain = styled.div`
 
     & h3 {
         color: #f6336c;
-        margin-top: -30px;
+        margin-top: -0px;
         font-size: 25px;
         font-weight: 100;
+        font-family: 'Qatar2022', sans-serif;
+                                                
 
         @media (max-width: 705px) {
             font-size: 20px;
@@ -122,7 +126,7 @@ const SAside = styled.div`
     & img {
         margin-left: 1300px;
         opacity: 0.5;
-        width: 40px;
+        width: 50px;
     }
 
     img:hover{
@@ -133,11 +137,12 @@ const SAside2 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: -140px;
+    margin-top: -170px;
+    margin-bottom: 10px;
     padding: 0;
 
     & img {
-        width: 40px;
+        width: 50px;
         margin-left: 25px;
         opacity: 0.5;
     }
