@@ -1,55 +1,40 @@
 import styled from "styled-components";
-import Linkedin from '../../Assets/linkedin.png'
-import Github from '../../Assets/github.png'
-import Instagram from '../../Assets/instagram.png'
-import Button from "../../Components/Buttons";
-import Whats from '../../Assets/whats.png'
-import Email from '../../Assets/mail.png'
-
 
 import { Link } from "react-router-dom";
+
+import About from "../../Components/About";
+import Projects from "../../Components/Projects";
+import Contact from "../../Components/Contact";
+import Skills from "../../Components/Skills";
 
 
 export function Home() {
     return (
         <SContainer>
-            <div>
-                <SAside>
-                    <a
-                        href="https://api.whatsapp.com/send?phone=5519996602839&text=Olá,%20tudo%20bem%20?"
-                        target="_blank"
-                        rel="noreferrer">
-                        <img src={Whats} alt='' />
-                    </a>
-                    <a
-                        href="mailto:wiiliamb@hotmail.com"
-                        target="_blank"
-                        rel="noreferrer">
-                        <img src={Email} alt='' />
-                    </a>
-                </SAside>
-            </div>
 
             <SMain>
-
                 <h1>Oi, eu sou o William!</h1>
                 <h3>Desenvolvedor Web/Mobile Front End</h3>
 
                 <div className="button">
-                    <Link to="/about"><Button>Sobre Mim</Button></Link>
-                    <Link to="/projects"><Button>Meus Projetos</Button></Link>
+                    <Link to="/about"><About /></Link>
+                    <Link to="/projects"><Projects /></Link>
+                    <Link to='/skills'><Skills /></Link>
+                    <Link to='/contact'><Contact /></Link>
                 </div>
             </SMain>
 
 
 
-            <div>
+            {/* <div>
                 <SAside2>
+                    <a href="https://api.whatsapp.com/send?phone=5519996602839&text=Olá,%20tudo%20bem%20?" target="_blank" rel="noreferrer"><img src={Whats} alt='' /></a>
                     <a href="https://www.linkedin.com/in/william-berbet/" target="_blank" rel="noreferrer"><img src={Linkedin} alt='' /></a>
                     <a href="https://github.com/will10iam" target="_blank" rel="noreferrer"><img src={Github} alt='' /></a>
                     <a href="https://www.instagram.com/willnasredes/" target="_blank" rel="noreferrer"><img src={Instagram} alt='' /></a>
+                    <a href="mailto:wiiliamb@hotmail.com" target="_blank" rel="noreferrer"><img src={Email} alt='' /></a>
                 </SAside2>
-            </div>
+            </div> */}
         </SContainer>
     )
 }
@@ -61,7 +46,7 @@ export default Home;
 
 const SContainer = styled.div`
     background-size: cover;
-`
+    `
 
 
 const SMain = styled.div`
@@ -76,6 +61,7 @@ const SMain = styled.div`
     & h1 {
         font-size: 80px;
         font-family: 'Qatar2022', sans-serif;
+        
                                                 
 
         @media (max-width: 705px) {
@@ -93,6 +79,7 @@ const SMain = styled.div`
         font-size: 25px;
         font-weight: 100;
         font-family: 'Qatar2022', sans-serif;
+        margin-bottom: 15px;
                                                 
 
         @media (max-width: 705px) {
@@ -109,35 +96,27 @@ const SMain = styled.div`
     & .button {
         display: flex;
         margin-top: 30px;
-
+        gap: 25px;
+        
         & a {
             text-decoration: none;
         }
     }
 `
 
-const SAside = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: -120px;
-    margin-top: 18px;
-
+/* const SAside = styled.div`
+    
     & img {
-        margin-left: 1300px;
-        opacity: 0.5;
         width: 50px;
     }
 
-    img:hover{
-        opacity: 0.8;
-    }
-`
-const SAside2 = styled.div`
+` */
+
+/* const SAside2 = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: -170px;
+    margin-top: -277px;
     margin-bottom: 10px;
     padding: 0;
 
@@ -150,4 +129,9 @@ const SAside2 = styled.div`
     img:hover{
         opacity: 0.8;
     }
-`
+
+    a {
+
+        width: 100px;
+    }
+` */
