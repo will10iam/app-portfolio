@@ -1,8 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     background: rgb(48, 2, 25);
     background: linear-gradient(0deg, rgba(48, 2, 25, 1) 1%, rgba(175, 5, 63, 1) 100%);
     scrollbar-width: none;
@@ -11,12 +10,8 @@ body {
 
 
 * {
-    margin: 0;
-    padding: 0;
-
     font-family: "Qatar", sans-serif;
     color: white;
-
 }
 
 ::-webkit-scrollbar {
