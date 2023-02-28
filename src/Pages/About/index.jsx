@@ -62,7 +62,8 @@ const SContainer = styled.div`
 
 const SAside2 = styled.div`
     display: flex;
-    margin-left: 870px;
+    margin-left: 890px;
+    margin-top: -20px;
 
     & a {
         text-decoration: none;
@@ -120,7 +121,8 @@ const SMain = styled.div`
     }
 
     & .carrossel {
-        margin-top: 90px;
+        margin-top: 50px;
+        margin-right: 80px;
 
         & img {
             width: 500px;
@@ -128,7 +130,8 @@ const SMain = styled.div`
     }
 
     & .sobre {
-        margin-top: 50px;
+        margin-top: 10px;
+        margin-left: -50px;
     }
 
     & .sobre1 {

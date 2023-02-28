@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 import { Link } from "react-router-dom";
 
-import About from "../../Components/About";
-import Projects from "../../Components/Projects";
-import Contact from "../../Components/Contact";
-import Skills from "../../Components/Skills";
+import About from "../../Components/Menus/About";
+import Projects from "../../Components/Menus/Projects";
+import Contact from "../../Components/Menus/Contact";
+import Skills from "../../Components/Menus/Skills";
 
 
 export function Home() {
@@ -61,6 +61,7 @@ const SMain = styled.div`
     & h1 {
         font-size: 80px;
         font-family: 'Qatar2022', sans-serif;
+        margin-right: 80px;
         
                                                 
 
@@ -80,6 +81,7 @@ const SMain = styled.div`
         font-weight: 100;
         font-family: 'Qatar2022', sans-serif;
         margin-bottom: 15px;
+        margin-right: 80px;
                                                 
 
         @media (max-width: 705px) {
@@ -97,6 +99,7 @@ const SMain = styled.div`
         display: flex;
         margin-top: 30px;
         gap: 25px;
+        margin-right: 80px;
         
         & a {
             text-decoration: none;
