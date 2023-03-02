@@ -21,7 +21,7 @@ export default function Projects() {
             <div className="main">
                 <Link to='/web'><Categories name="Aplicações Web" icon={<TbDeviceLaptop size={60} />} /></Link>
                 <Categories name="Apps Mobile" icon={<CiMobile1 size={60} />} />
-                <Categories name="Landing Pages" icon={<RiPagesLine size={60} />} />
+                <Link to='/landing'><Categories name="Landing Pages" icon={<RiPagesLine size={60} />} /></Link>
                 <Categories name="Games Web" icon={<GiGamepad size={60} />} />
             </div>
 
