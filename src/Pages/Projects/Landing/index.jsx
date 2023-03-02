@@ -10,22 +10,31 @@ const VISIBILIDADE_MAXIMA = 3;
 // conteudo dos cartões
 const CONTEUDO_CARTOES = [
     {
-        titulo: "Meu Portfólio",
-        conteudo: "Esse mesmo que você está! rs ",
+        titulo: "Imersão em Conteúdo",
+        conteudo: "Landing Page para um curso/mentoria!",
         button: "Código do Projeto",
         botão: "Site do Projeto",
-        code: "https://github.com/will10iam/app-portfolio",
-        site: "https://wiillportfolio.netlify.app/",
+        code: "https://github.com/will10iam/landing-page1",
+        site: "https://landing-pageone.netlify.app/",
         tech: "ReactJs, Styled Components",
     },
     {
-        titulo: "Patch Ninjas",
-        conteudo: "Plataforma que conecta demandas de clientes com trabalhadores da área da tecnologia.",
+        titulo: "Manhã com O RH",
+        conteudo: "Landing Page de coletar dados pra uma lista de espera de uma palestra .",
         button: "Código do Projeto",
         botão: "Site do Projeto",
-        code: "https://github.com/will10iam/Patch-Ninjas-Client",
-        site: "https://patch-ninjas.netlify.app/",
-        tech: "ReactJs, NodeJs, Styled Components",
+        code: "https://github.com/will10iam/landing-page2",
+        site: "https://landing-pagetwo.netlify.app/",
+        tech: "ReactJs, Styled Components",
+    },
+    {
+        titulo: "Intercâmbio Gratuito pela Europa",
+        conteudo: "Landing Page que coleta dados em troca de um ebook enviado no email.",
+        button: "Código do Projeto",
+        botão: "Site do Projeto",
+        code: "https://github.com/will10iam/landing-page3",
+        site: "hhttps://landing-pagethree.netlify.app/",
+        tech: "ReactJs, Styled Components",
     },
 ];
 
