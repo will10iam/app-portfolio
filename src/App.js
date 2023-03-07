@@ -4,6 +4,7 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import Web from "./Pages/Projects/Web";
 import Landing from "./Pages/Projects/Landing"
+import Games from './Pages/Projects/Games'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/web" element={<Web />} />
         <Route path="/landing" element={<Landing />} />
+        <Route path="/games" element={<Games />} />
       </Routes>
     </div>
   );

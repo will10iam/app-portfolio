@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import About from "../../Components/Menus/About";
 import Projects from "../../Components/Menus/Projects";
 import Contact from "../../Components/Menus/Contact";
-import Skills from "../../Components/Menus/Skills";
 
 
 export function Home() {
@@ -19,7 +18,6 @@ export function Home() {
                 <div className="button">
                     <Link to="/about"><About /></Link>
                     <Link to="/projects"><Projects /></Link>
-                    <Link to='/skills'><Skills /></Link>
                     <Link to='/contact'><Contact /></Link>
                 </div>
             </SMain>

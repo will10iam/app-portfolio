@@ -22,14 +22,13 @@ export default function Projects() {
                 <Link to='/web'><Categories name="Aplicações Web" icon={<TbDeviceLaptop size={60} />} /></Link>
                 <Categories name="Apps Mobile" icon={<CiMobile1 size={60} />} />
                 <Link to='/landing'><Categories name="Landing Pages" icon={<RiPagesLine size={60} />} /></Link>
-                <Categories name="Games Web" icon={<GiGamepad size={60} />} />
+                <Link to='/games'><Categories name="Games Web" icon={<GiGamepad size={60} />} /></Link>
             </div>
 
 
             <SAside2>
                 <Link to='/'><p>Home</p></Link>
                 <Link to='/about'><p>Sobre Mim</p></Link>
-                <Link to='/skills'><p>Habilidades</p></Link>
                 <Link to='/contact'><p>Contato</p></Link>
             </SAside2>
         </Container>
@@ -76,7 +75,7 @@ const SAside2 = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-left: -130px;
+    margin-left: -80px;
     & a {
         text-decoration: none;
     }
