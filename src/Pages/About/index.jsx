@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 
-import barber from '../../Assets/barber.svg'
+/* import barber from '../../Assets/barber.svg' */
 import Carousel from "../../Components/Carousel";
 
 
