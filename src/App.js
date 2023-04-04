@@ -5,6 +5,7 @@ import Projects from "./Pages/Projects";
 import Web from "./Pages/Projects/Web";
 import Landing from "./Pages/Projects/Landing"
 import Games from './Pages/Projects/Games'
+import Contact from "./Pages/Contact";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/web" element={<Web />} />
         <Route path="/landing" element={<Landing />} />
         <Route path="/games" element={<Games />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

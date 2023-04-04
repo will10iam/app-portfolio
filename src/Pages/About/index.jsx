@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 /* import barber from '../../Assets/barber.svg' */
 import Carousel from "../../Components/Carousel";
+/* import Progress from '../../Components/Progress' */
+
 
 
 export function About() {
@@ -54,6 +56,13 @@ export function About() {
 
                 </div>
 
+                {/* <div className="progress">
+                    <Progress value='30' max='100' color='#442222' />
+                    <Progress value='50' max='100' color='#E8B298' />
+                </div> */}
+
+
+
                 <div className="comp" >
                     <Carousel />
                 </div>
@@ -90,6 +99,7 @@ const SAside2 = styled.div`
         margin-left: 15px;
         opacity: 0.5;
         cursor: pointer;
+        color: #E8B298;
     }
     
     p:hover{
@@ -111,6 +121,7 @@ const SMain = styled.div`
         margin-left: 30px;
         font-family: 'Qatar2022', sans-serif;
         margin-top: 40px;
+        color: #E8B298;
                                                 
     }
 
@@ -133,6 +144,7 @@ const SMain = styled.div`
         margin-top: 10px;
         font-weight: 100;
         line-height: 20px ;
+        color: #E8B298;
     }
 
     & .carrossel {
@@ -170,6 +182,7 @@ const SMain = styled.div`
         font-size: 25px;
         margin-left: 30px;
         font-family: 'Qatar2022', sans-serif;
+        color: #E8B298;
     }
 
     & .form {
@@ -182,6 +195,10 @@ const SMain = styled.div`
     & .comp {
         margin-top: 290px;
         margin-right: 80px;
+    }
+
+    & .progress {
+        margin-top: 50px;
     }
 `
 

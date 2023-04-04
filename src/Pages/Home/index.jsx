@@ -60,6 +60,7 @@ const SMain = styled.div`
         font-size: 80px;
         font-family: 'Qatar2022', sans-serif;
         margin-right: 80px;
+        color: #E8B298;
         
                                                 
 
