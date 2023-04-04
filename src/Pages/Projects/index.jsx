@@ -47,6 +47,7 @@ const Header = styled.div`
         font-family: 'Qatar2022', sans-serif;
         font-size: 60px;
         margin-bottom: -15px;
+        color: #E8B298;
                                              
     }
 
@@ -67,6 +68,7 @@ const Container = styled.div`
             grid-template-columns: auto auto auto auto;
             gap: 10px;
             margin-left: -130px;
+            
         }
 `
 
@@ -86,6 +88,7 @@ const SAside2 = styled.div`
         margin-left: 15px;
         opacity: 0.5;
         cursor: pointer;
+        color: #E8B298;
     }
     
     p:hover{
