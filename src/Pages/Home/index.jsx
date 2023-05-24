@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Typewriter from 'typewriter-effect'
 import { Link } from "react-router-dom";
 
 import About from "../../Components/Menus/About";
@@ -13,7 +13,26 @@ export function Home() {
 
             <SMain>
                 <h1>Oi, eu sou o William!</h1>
-                <h3>Desenvolvedor Web/Mobile Front End</h3>
+                {/* <h3>Desenvolvedor Web/Mobile Front End</h3> */}
+
+
+                <div className="description">
+                    <Typewriter
+                        className="description"
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString('<strong style="color: #f6336c;">Desenvolvedor Web Front-End</strong>')
+                                .pauseFor(1000)
+                                .deleteChars(13)
+                                .typeString('<strong style="color: #f6336c;">Mobile</strong>')
+                                .pauseFor("1000")
+                                .deleteAll()
+                                .typeString('<strong style="color: #f6336c;">Web Designer</strong>')
+                                .start();
+                        }}
+                    />
+                </div>
+
 
                 <div className="button">
                     <Link to="/about"><About /></Link>
@@ -92,6 +111,15 @@ const SMain = styled.div`
             margin-top: -10px;
         }
 
+    }
+
+    & .description {
+        font-size: 35px;
+        margin-bottom: 35px;
+        margin-right: 80px;
+        margin-top: -25px;
+        font-weight: bold;
+        
     }
 
     & .button {

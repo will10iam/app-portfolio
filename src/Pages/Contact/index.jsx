@@ -55,10 +55,10 @@ export default function Contact() {
                     <h1>wiiliamb@hotmail.com</h1>
                 </div>
 
-                <div className="um">
+                {/* <div className="um">
                     <span><ion-icon name="flag-outline"></ion-icon></span>
                     <h1>Limeira, São Paulo</h1>
-                </div>
+                </div> */}
             </Cards>
         </Container>
     )
@@ -131,11 +131,12 @@ const Cards = styled.div`
     align-items: center;
     margin-bottom: 10px;
     
+    
     .um {
         font-size: .6rem;
         background-color: #AF053F;
         border-radius: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
 
         h1 {
             font-weight: 100;
