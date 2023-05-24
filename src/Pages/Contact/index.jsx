@@ -4,15 +4,10 @@ import img from "../../Assets/contactimg.png"
 import React from "react";
 import cvpdf from '../../Assets/WillCV.pdf'
 
-
-
-
-
 export default function Contact() {
 
     return (
-
-        <>
+        <Container>
             <Ficha>
                 <img src={img} alt="" />
 
@@ -44,13 +39,37 @@ export default function Contact() {
 
             </Ficha>
 
-        </>
+            <Cards>
+                <div className="um">
+                    <span><ion-icon name="flag-outline"></ion-icon></span>
+                    <h1>Limeira, São Paulo</h1>
+                </div>
+
+                <div className="um">
+                    <span><ion-icon name="logo-whatsapp"></ion-icon></span>
+                    <h1>(19) 99660-2839</h1>
+                </div>
+
+                <div className="um">
+                    <span><ion-icon name="mail-open-outline"></ion-icon></span>
+                    <h1>wiiliamb@hotmail.com</h1>
+                </div>
+
+                {/* <div className="um">
+                    <span><ion-icon name="flag-outline"></ion-icon></span>
+                    <h1>Limeira, São Paulo</h1>
+                </div> */}
+            </Cards>
+        </Container>
     )
 }
 
 
 // ==================================== STYLES =============================== \\
 
+const Container = styled.div`
+    display: flex;
+`
 
 const Ficha = styled.div`
 text-align: center;
@@ -58,11 +77,10 @@ background-color: #AF053F;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-right: 1100px;
-margin-top: -20px;
+margin-right: 100px;
+margin-top: -50px;
 height: 700px;
 width: 300px;
-    
     
     & img {
         width: 205px;
@@ -105,3 +123,30 @@ width: 300px;
         align-items: center;
     }
 `
+
+const Cards = styled.div`
+    margin-right: 800px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    
+    .um {
+        font-size: .6rem;
+        background-color: #AF053F;
+        border-radius: 10px;
+        margin-bottom: 30px;
+
+        h1 {
+            font-weight: 100;
+        }
+        
+        ion-icon {
+            font-size: 2.5rem;
+            padding-top: 5px;    
+        }
+    }
+
+
+` 
