@@ -1,34 +1,43 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+
+/* import { Link } from "react-router-dom"; */
 
 
 /* import barber from '../../Assets/barber.svg' */
-import Carousel from "../../Components/Carousel";
+/* import Carousel from "../../Components/Carousel"; */
 /* import Progress from '../../Components/Progress' */
 
+import AboutMe from "../../Components/AbouteMe/AboutMe";
+import PageHeader from "../../Components/PageHeader/PageHeader"
 
-
-export function About() {
+export function About({ name, location, brand, email, availability }) {
     return (
-        <SContainer>
 
-            <SAside2>
+        <section className="about">
+            <PageHeader title="Sobre Mim" description="Deixe eu me apresentar" />
+            <AboutMe name={name} location={location} brand={brand} email={email} availability={availability} />
+
+        </section>
+    )
+
+    {/* <div>
+
+            <div>
                 <Link to='/'><p>Home</p></Link>
                 <Link to='/projects'><p>Meus Projetos</p></Link>
                 <Link to='/contact'><p>Contato</p></Link>
-            </SAside2>
+            </div>
 
 
-            {/* <SAside2>
+             <SAside2>
                 <a href="https://www.linkedin.com/in/william-berbet/" target="_blank" rel="noreferrer"><img src={Linkedin} alt='' /></a>
                 <a href="https://github.com/will10iam" target="_blank" rel="noreferrer"><img src={Github} alt='' /></a>
                 <a href="https://www.instagram.com/willnasredes/" target="_blank" rel="noreferrer"><img src={Instagram} alt='' /></a>
                 <a href="https://api.whatsapp.com/send?phone=5519996602839&text=Olá,%20tudo%20bem%20?" target="_blank" rel="noreferrer"><img src={Whats} alt='' /></a>
                 <a href="mailto:wiiliamb@hotmail.com" target="_blank" rel="noreferrer"><img src={Email} alt='' /></a>
-            </SAside2> */}
+            </SAside2> 
 
 
-            <SMain>
+            <div>
 
                 <div className="sobre">
                     <h3>e ai, na paz de Cristo?!</h3>
@@ -42,7 +51,7 @@ export function About() {
                     <Link to='/contact'><p className="sobre1">Vamos produzir algo legal juntos!</p></Link>
 
                     <h2>Formações</h2>
-                    <Card>
+                    <div>
                         <div className="form">
                             <h1>ADMINISTRAÇÃO DE EMPRESAS</h1>
                             <h2>2017-2020 • UNIP</h2>
@@ -52,14 +61,14 @@ export function About() {
                             <h1 id="dev">DESENVOLVIMENTO WEB FULL STACK</h1>
                             <h2>2022 • UNIP</h2>
                         </div>
-                    </Card>
+                    </div>
 
                 </div>
 
-                {/* <div className="progress">
+                 <div className="progress">
                     <Progress value='30' max='100' color='#442222' />
                     <Progress value='50' max='100' color='#E8B298' />
-                </div> */}
+                </div> 
 
 
 
@@ -67,12 +76,12 @@ export function About() {
                     <Carousel />
                 </div>
 
-                {/* <div className="carrossel">
+                 <div className="carrossel">
                     <img src={barber} alt="" />
-                </div> */}
-            </SMain>
-        </SContainer>
-    )
+                </div> 
+            </div>
+        </div> */}
+
 }
 
 export default About;
@@ -80,7 +89,7 @@ export default About;
 
 // ==================================== STYLES =============================== \\
 
-const SContainer = styled.div`
+/* const SContainer = styled.div`
     background-image: url('../src/Assets/bg1.png');
 `
 
@@ -234,3 +243,4 @@ const Card = styled.div`
     }
 `
 
+ */

@@ -1,16 +1,15 @@
-@import url("https://fonts.cdnfonts.com/css/qatar2022?styles=66195,66196");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700;800&display=swap");
 
 
 /* --- VARIÁVEIS --- */
 :root {
     --bg-color: #101010;
-    --hl-color: #009e66;
+    --hl-color: #f6336c;
     --text-color: #f3f3f3;
     --secondary-text-color: #9f9f9f;
     --grey: #9f9f9f76;
     --spacing: 50px;
-    --sm-spacing: 30px;
+    --sm-spacing: 10px;
 }
 
 /* --- ANIMAÇÕES --- */
@@ -38,7 +37,6 @@
 html,
 body,
 #root {
-    width: 100%;
     height: 100%;
     background-color: var(--bg-color);
 }
@@ -99,11 +97,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
+    margin-left: -20px;
 }
 
 .logo {
-    height: 30px;
+    height: 100px;
 }
 
 .links {
@@ -132,7 +130,7 @@ header {
     color: white;
 }
 
-.links .open {
+.links.open {
     display: block;
     animation: slideDown 0.5s ease-in-out forwards;
 }
@@ -160,7 +158,7 @@ header {
 }
 
 /* --- MEDIA QUERIES --- */
-@media (min-width: 950px) {
+@media (min-width: 750px) {
     .links {
         display: flex;
         background-color: var(--bg-color);
@@ -181,7 +179,7 @@ header {
         margin-right: 20px;
     }
 
-    .links .open {
+    .links.open {
         display: flex;
     }
 
@@ -217,10 +215,6 @@ header {
     }
 
     .closed {
-        background-color: transparent;
-    }
-
-    .open {
         background-color: transparent;
     }
 }

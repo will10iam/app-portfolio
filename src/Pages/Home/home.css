@@ -6,20 +6,21 @@
 
 .landing .description {
     font-size: 22px;
+    margin-top: -40px;
 }
 
-/* .landingImage {
+.landingImage {
     right: 0px;
-  } */
+}
 
-/* .landing .socialIcons {
+.landing .socialIcons {
     display: none;
-  } */
+}
 
 .landing .socialIcons {
     display: flex;
     position: absolute;
-    left: 90px;
+    left: 20px;
     bottom: 20px;
 }
 
@@ -34,10 +35,10 @@
         font-size: 32px;
     }
 
-    /* .landingImage {
-      bottom: 0;
-      right: 80px;
-    } */
+    .landingImage {
+        bottom: 0;
+        right: 0px;
+    }
 
     .landing .socialIcons {
         flex-direction: column;
