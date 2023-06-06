@@ -53,7 +53,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 >
                     <div className="contentContainer">
                         <h4>e ai, tudo bem ?</h4>
-                        <h5>I'm a Software Engineer who crafts amazing digital experiences!</h5>
+                        <h5>Sou o William, 28 anos, localizado em Limeira - São Paulo.</h5>
                         <div className="contentDescription">
                             <p>{brand}</p>
                         </div>
@@ -70,13 +70,27 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                                     </p>
                                 </div>
                             </div>
+                            <div className="row">
+                                <div className="col-12 col-md-6 info">
+                                    <span>Localização:</span>
+                                    <p>{location}</p>
+                                </div>
+                                <div className="col-12 col-md-6 info">
+                                    <span>Disponibilidade:</span>
+                                    <p>{availability}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="buttonContainer">
+                            <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
+                                {downloading ? "Downloading..." : "Baixar Curriculum"}
+                            </button>{" "}
+                            <SocialIcons />
                         </div>
                     </div>
                 </motion.div>
             </div>
         </div>
-
-
     )
 }
 

@@ -15,9 +15,8 @@ function App() {
     name: "William Berbet",
     location: "Limeira, SP",
     email: "wiiliamb@hotmail.com",
-    availability: "Open for work",
-    brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+    availability: "Aberto a novas experiências",
+    brand: "Amante de frango frito, música e muai thay! Eu crio sites responsivos que são rápidos, fáceis de usar e construídos com as melhores práticas. A principal área de minha especialização é desenvolvimento front-end com HTML, CSS & JS na criação de aplicativos da Web. Também tenho praticado a criação de aplicativos mobile Android e iOs através do React Native."
   };
 
 
