@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Bíblia Todo Dia",
+        "image": "./projectImages/biblia.svg",
+        "description": "Esse é um projeto em parceria com o ConstruIDE, um projeto dos jovens da Igreja Presbiteriana Maanaim localizado em Limeira/SP.  Aqui você pode todos os dias gerar um novo versículo bíblico para refletir e compartilhar! ",
+        "technologies": "JS | React | Styled-Components",
+        "github": "https://github.com/will10iam/app-versiculos",
+        "deployed": "https://bibliatododia.netlify.app/",
+        "bgcolor": "#9f9f9f",
+        "id": "1"
+    },
+    {
+        "title": "Meu Portfólio",
+        "image": "./projectImages/portfolio.svg",
+        "description": "Esse é o meu portfólio!  Onde apresento meus principais projetos, falo um pouco sobre mim e é onde você pode entrar em contato comigo. Dá uma navegada, veja como são meus trabalhos e bora trabalhar juntos!",
+        "technologies": "React | Framer Motion | Bootstrap",
+        "github": "https://github.com/will10iam/app-portfolio",
+        "deployed": "https://wiillportfolio.netlify.app",
+        "bgcolor": "#f6336c",
+        "id": "1"
+    }
+]
