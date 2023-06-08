@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import "./index.css"
 import "./Pages/Home/home.css";
 import "./Pages/About/about.css";
+import "./Pages/Portfolio/portfolio.css"
 
 import App from './App';
 

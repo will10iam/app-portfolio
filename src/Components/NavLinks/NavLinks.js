@@ -19,7 +19,7 @@ export default function NavLinks() {
             <nav className={`links ${isMenuOpen ? "open" : "closed"}`}>
                 <NavLink to="/" onClick={() => setIsMenuOpen(false)}>Home</NavLink>
                 <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>About</NavLink>
-                <NavLink to="/projects" onClick={() => setIsMenuOpen(false)}>Projects</NavLink>
+                <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>Portfolio</NavLink>
                 <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</NavLink>
             </nav>
 
