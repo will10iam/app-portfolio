@@ -18,5 +18,15 @@
         "deployed": "https://wiillportfolio.netlify.app",
         "bgcolor": "#f6336c",
         "id": "1"
+    },
+    {
+        "title": "LinksUp",
+        "image": "./projectImages/links.svg",
+        "description": "Meu site de links!  Tipo o linktree.  Organize seus links em uma página só, editável do jeito que mais gosta.",
+        "technologies": "React | Firebase",
+        "github": "https://github.com/will10iam/app-linkup",
+        "deployed": "https://linksup.netlify.app/",
+        "bgcolor": "#9f9f9f",
+        "id": "1"
     }
 ]
