@@ -76,7 +76,7 @@ Quer ter uma cópia local?  - Siga os passos abaixos:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/mdyeates/my-portfolio.git
+   git clone https://github.com/will10iam/app-portfolio.git
    ```
 2. Install NPM packages
    ```sh
