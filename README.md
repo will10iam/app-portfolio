@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <!-- PROJECT SHIELDS -->
 
-## Available Scripts
+[![Contributors][contributors-shield]][contributors-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-In the project directory, you can run:
+  <!-- PROJECT LOGO -->
 
-### `npm start`
+  <br />
+  <div align="center">
+    <a href="https://github.com/will10iam/app-portfolio">
+      <img src="src/Assets/logo.svg" alt="Logo" width="200" height="200">
+    </a>
+    <h3 align="center">Meu Portfolio!</h3>
+    <p align="center">
+    <br/>
+Esse é o meu site!  Você vai conhecer mais de mim e dos meus projetos.  Tem uma aparência dinâmica e atraente. Não acha? <br/>
+      <br/>
+      Desenvolvido por - William Berbet
+      <br/>
+      <br/>
+      <a href="https://github.com/will10iam/app-portfolio"><strong>Explore os códigos »</strong></a>
+      <br/>
+      <br/>
+      <a href="https://wiillportfolio.netlify.app/">Ver o Website</a>
+      ·
+      <a href="https://github.com/will10iam/app-portfolio/issues">Reporte algum bug</a>
+    </p>
+  </div>
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+  <!-- ABOUT THE PROJECT -->
+  
+  ## Sobre o Projeto
+  
+  ### Imagens
+  
+  [![My React Portfolio Screen Shot][product-screenshot]](https://wiillportfolio.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![My React Portfolio Screen Shot][product-screenshot2]](https://wiillportfolio.netlify.app/)
 
-### `npm test`
+[![My React Portfolio Screen Shot][product-screenshot3]](https://wiillportfolio.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![My React Portfolio Screen Shot][product-screenshot4]](https://wiillportfolio.netlify.app/)
 
-### `npm run build`
+  <p align="right"><a href="#readme-top">voltar ao top</a></p>
+  
+  ### Desenvolvido com
+  
+  - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=React&logoColor=61DAFB)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <p align="right"><a href="#readme-top">voltar ao top</a></p>
+  
+  ### Descrição
+  
+  Bem vindo ao meu portfolio, construído com React. Aqui você vai ver meus melhores projetos. O projeto tem uma grande enfase no conceito mobile-first, oferecendo uma aparência profissional e polida!
+  
+  <p align="right"><a href="#readme-top">voltar ao top</a></p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Para usar
 
-### `npm run eject`
+Quer ter uma cópia local?  - Siga os passos abaixos:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Pré-requisitos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Instalação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/will10iam/app-portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-## Learn More
+  <p align="right"><a href="#readme-top">voltar ao top</a></p>
+  
+  
+  ### Versão Mobile
+  
+  - Todo o aplicativo foi projetado para ser responsivo e ajustar-se em vários tamanhos de tela. Confira nas imagens:
+  
+    [![Responsiveness Screenshot][responsive-screenshot]](https://michaelyeates.co.uk)
+    
+    [![Responsiveness Screenshot][responsive-screenshot2]](https://michaelyeates.co.uk)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    [![Responsiveness Screenshot][responsive-screenshot3]](https://michaelyeates.co.uk)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    [![Responsiveness Screenshot][responsive-screenshot4]](https://michaelyeates.co.uk)
 
-### Code Splitting
+  <p align="right"><a href="#readme-top">voltar ao top</a></p>
+  
+<!-- QUESTIONS -->
+  
+## Questões
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Se tiver alguma dúvida, me mande!  Pode ser no email - <a href="mailto:wiiliamb@hotmail.com">wiiliamb@hotmail.com</a> ou nas redes sociais!
 
-### Analyzing the Bundle Size
+<a href="https://www.linkedin.com/in/william-berbet/">LinkedIn</a> | <a href="https://github.com/will10iam">GitHub</a> | <a href="https://www.instagram.com/willnasredes/">Instagram</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Link do Projeto: [https://github.com/will10iam/app-portfolio](https://github.com/will10iam/app-portfolio)
 
-### Making a Progressive Web App
+  <p align="right"><a href="#readme-top">back to top</a></p>
+  
+  <!-- MARKDOWN LINKS & IMAGES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[contributors-shield]: https://img.shields.io/github/contributors/mdyeates/my-portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/mdyeates/my-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mdyeates/my-portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/mdyeates/my-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/mdyeates/my-portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/mdyeates/my-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mdyeates/my-portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/mdyeates/my-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/mdyeates/my-portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/mdyeates/my-portfolio/blob/main/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/mdyeates
 
-### Advanced Configuration
+  <!-- UPDATE PLACEHOLDER IMAGES HERE -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[product-screenshot]: src/images/screenshot.png
+[product-screenshot2]: src/images/screenshot2.png
+[product-screenshot3]: src/images/screenshot3.png
+[product-screenshot4]: src/images/screenshot4.png
+[responsive-screenshot]: src/images/mobile-screenshot.png
+[responsive-screenshot2]: src/images/mobile-screenshot2.png
+[responsive-screenshot3]: src/images/mobile-screenshot3.png
+[responsive-screenshot4]: src/images/mobile-screenshot4.png
