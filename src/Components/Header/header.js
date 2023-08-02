@@ -2,13 +2,13 @@
 import NavLinks from '../NavLinks/NavLinks'
 import logo from '../../Assets/logo.svg'
 
-
-
-export default function Header() {
+const Header = () => {
     return (
         <header className="header">
-            <img className="logo" src={logo} alt="Logo Will" />
+            <img className="logo" src={logo} alt="Will Logo" />
             <NavLinks />
         </header>
     )
 }
+
+export default Header;
