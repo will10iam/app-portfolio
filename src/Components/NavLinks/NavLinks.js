@@ -1,19 +1,21 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import openMenu from '../../Assets/open.svg'
-import closeMenu from '../../Assets/close.svg'
+import open from "../../Assets/open.svg"
+import close from "../../Assets/close.svg"
 
 
-export default function NavLinks() {
+
+
+const NavLinks = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <>
-            <button className="dropwdown-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <button className="dropdown-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 {isMenuOpen ? (
-                    <img className="closeMenu" src={closeMenu} alt="Close" />
+                    <img className="closeMenu" src={close} alt="Close" />
                 ) : (
-                    <img className="openMenu" src={openMenu} alt="Open" />
+                    <img className="openMenu" src={open} alt="Open" />
                 )}
             </button>
             <nav className={`links ${isMenuOpen ? "open" : "closed"}`}>
@@ -28,3 +30,5 @@ export default function NavLinks() {
         </>
     );
 };
+
+export default NavLinks;
