@@ -103,6 +103,10 @@ header {
     height: 100px;
 }
 
+.logo:hover {
+    scale: 1.2;
+}
+
 .links {
     display: none;
     position: absolute;
@@ -126,7 +130,8 @@ header {
 }
 
 .links a:hover {
-    color: white;
+    scale: 1.2;
+    color: var(--hl-color)
 }
 
 .links.open {
@@ -186,7 +191,7 @@ header {
         display: none;
     }
 
-    .links a:before {
+    /* .links a:before {
         content: "";
         position: absolute;
         bottom: -5px;
@@ -195,13 +200,13 @@ header {
         height: 1px;
         background-color: var(--text-color);
         transition: width 0.3s ease-in-out;
-    }
+    } */
 
-    .links a:hover:before {
+    /* .links a:hover:before {
         width: 100%;
     }
-
-    .links a.active:before {
+ */
+    /* .links a.active:before {
         content: "";
         position: absolute;
         bottom: -5px;
@@ -211,7 +216,7 @@ header {
         background-color: var(--text-color);
         transition: width 0.3s ease-in-out;
         width: 100%;
-    }
+    } */
 
     .closed {
         background-color: transparent;
