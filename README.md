@@ -129,11 +129,11 @@ Link do Projeto: [https://github.com/will10iam/app-portfolio](https://github.com
 
   <!-- UPDATE PLACEHOLDER IMAGES HERE -->
 
-[product-screenshot]: src/images/screenshot.png
-[product-screenshot2]: src/images/screenshot2.png
-[product-screenshot3]: src/images/screenshot3.png
-[product-screenshot4]: src/images/screenshot4.png
-[responsive-screenshot]: src/images/mobile-screenshot.png
-[responsive-screenshot2]: src/images/mobile-screenshot2.png
-[responsive-screenshot3]: src/images/mobile-screenshot3.png
-[responsive-screenshot4]: src/images/mobile-screenshot4.png
+[product-screenshot]: src/Assets/screenshot.png
+[product-screenshot2]: src/Assets/screenshot1.png
+[product-screenshot3]: src/Assets/screenshot2.png
+[product-screenshot4]: src/Assets/screenshot3.png
+[responsive-screenshot]: src/Assets/mobile-screenshot.png
+[responsive-screenshot2]: src/Assets/mobile-screenshot1.png
+[responsive-screenshot3]: src/Assets/mobile-screenshot2.png
+[responsive-screenshot4]: src/Assets/mobile-screenshot3.png
