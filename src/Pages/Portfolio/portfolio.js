@@ -1,7 +1,7 @@
 import projectsDb from './projectsdb.json';
 import Project from '../../Components/Project/Project';
 import PageHeader from '../../Components/PageHeader/PageHeader';
-import { useState } from 'react';
+/* import { useState } from 'react'; */
 
 
 export default function Portfolio() {
