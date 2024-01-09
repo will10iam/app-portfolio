@@ -28,5 +28,15 @@
         "deployed": "https://linksup.netlify.app/",
         "bgcolor": "#f6336c",
         "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./projectImages/painel.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#9f9f9f",
+        "id": "1"
     }
 ]
