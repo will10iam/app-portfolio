@@ -31,7 +31,7 @@
     },
     {
         "title": "Painel de Trabalhos",
-        "image": "./projectImages/41.svg",
+        "image": "./projectImages/42.svg",
         "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
         "technologies": "ReactJS | Firebase | Hooks",
         "github": "https://github.com/will10iam/painel-chamados",
@@ -41,7 +41,7 @@
     },
     {
         "title": "Contagem Regressiva para Eventos",
-        "image": "./projectImages/42.svg",
+        "image": "./projectImages/41.svg",
         "description": "Contagem Regressiva para um evento. Nesse caso, um acampamento de carnaval. Mas pode ser pra qualquer coisa!",
         "technologies": "ReactJS | Firebase | Hooks",
         "github": "https://github.com/will10iam/site-acampa",
