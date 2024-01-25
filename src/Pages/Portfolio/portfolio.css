@@ -51,8 +51,11 @@
 }
 
 .projectTitle {
-    font-size: 24px;
-    padding: 10px 0;
+    font-size: 20px;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 5px;
 }
 
 .githubLink {

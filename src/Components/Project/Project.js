@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../../Assets/close.svg"
+import '../../Pages/Portfolio/portfolio.css'
 
 
 
@@ -72,7 +73,7 @@ export default function Project({ technologies, title, image, color, id, github,
                 <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
                 <h3 className="modalTitle">{title}</h3>
                 <p className="projectDescription">{description}</p>
-                <button className="btn" onClick={() => (window.location.href = github)} >
+                <button className="btn" onClick={() => (window.location.href = github)}>
                     GitHub Repo
                 </button>
                 <button className="btn" onClick={() => (window.location.href = deployed)}>
